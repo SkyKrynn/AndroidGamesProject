@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_main">Starter Basics</string>
+
+    <string name="title_3d_starter_advanced">Starter 3D Advanced</string>
+    <string name="title_advanced_lighting">Lighting Test</string>
+    <string name="title_advanced_euler_camera_test">Euler Camera Test</string>
+    <string name="title_advanced_load_object_test">Load Object Test</string>
+
+    <string name="title_3d_starter_basics">Starter 3D Basics</string>
+    <string name="title_vertices3_test">Vertices3 Test</string>
+    <string name="title_perspective_test">Perspective Test</string>
+    <string name="title_zbuffer_test">ZBuffer Test</string>
+    <string name="title_zblending_test">ZBlending Test</string>
+    <string name="title_cube_test">Cube Test</string>
+    <string name="title_hierarchy_test">Hierarchy Test</string>
+
+    <string name="title_starter_basics">Starter 2D Basics</string>
+    <string name="title_life_cycle_test">Life Cycle Test</string>
+    <string name="title_single_touch_test">Single Touch Test</string>
+    <string name="title_multi_touch_test">Multi Touch Test</string>
+    <string name="title_key_test">Key Test</string>
+    <string name="title_accelerometer_test">Accelerometer Test</string>
+    <string name="title_assets_test">Assets Test</string>
+    <string name="title_external_storage_test">External Storage Test</string>
+    <string name="title_sound_pool_test">Sound Pool Test</string>
+    <string name="title_media_player_test">Media Player Test</string>
+    <string name="title_full_screen_test">Full Screen Test</string>
+    <string name="title_render_view_test">Render View Test</string>
+    <string name="title_shape_test">Shape Test</string>
+    <string name="title_bitmap_test">Bitmap Test</string>
+    <string name="title_font_test">Font Test</string>
+    <string name="title_surface_view_test">Surface View Test</string>
+
+    <string name="title_gl_starter_basics">GL Starter Basics</string>
+    <string name="title_gl_surface_view_test">GL Surface View Test</string>
+    <string name="title_gl_game_test">GL Game Test</string>
+    <string name="title_first_triangle_test">First Triangle Test</string>
+    <string name="title_colored_triangle_test">Colored Triangle Test</string>
+    <string name="title_textured_triangle_test">Textured Triangle Test</string>
+    <string name="title_indexed_test">Indexed Triangle Test</string>
+    <string name="title_blending_test">Blending Test</string>
+    <string name="title_bob_test">Bob Test</string>
+
+    <string name="title_dev_2d_basics">Dev 2D Basics</string>
+    <string name="title_dev_2d_cannon_test">Cannon Test</string>
+    <string name="title_dev_2d_cannon_gravity_test">Cannon Gravity Test</string>
+    <string name="title_dev_2d_collision_test">Collision Test</string>
+    <string name="title_dev_2d_camera2d_test">Camera 2D Test</string>
+    <string name="title_dev_2d_texture_atlas_test">Texture Atlas Test</string>
+    <string name="title_dev_2d_sprite_batcher_test">Sprite Batcher Test</string>
+    <string name="title_dev_2d_animation_test">Animation Test</string>
+
+
+    <string name="app_name">Basics Starter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

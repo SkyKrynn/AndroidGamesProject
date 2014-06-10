@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brsmith.android.games.basicsstarter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".StarterBasicHome"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GL3DAdvancedStarter"
+            android:label="@string/title_3d_starter_advanced"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.advanced.LightTest"
+            android:label="@string/title_advanced_lighting"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.advanced.EulerCameraTest"
+            android:label="@string/title_advanced_euler_camera_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.advanced.ObjTest"
+            android:label="@string/title_advanced_load_object_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".GL3DBasicStarter"
+            android:label="@string/title_3d_starter_basics"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.Vertices3Test"
+            android:label="@string/title_vertices3_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.PerspectiveTest"
+            android:label="@string/title_perspective_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.ZBufferTest"
+            android:label="@string/title_zbuffer_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.ZBlendingTest"
+            android:label="@string/title_zblending_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.CubeTest"
+            android:label="@string/title_cube_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".test3d.HierarchyTest"
+            android:label="@string/title_hierarchy_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity
+            android:name=".GameDev2DStarter"
+            android:label="@string/title_dev_2d_basics" >
+        </activity>
+
+        <activity
+            android:name=".test2d.AnimationTest"
+            android:label="@string/title_dev_2d_animation_test" >
+        </activity>
+
+        <activity
+            android:name=".test2d.SpriteBatcherTest"
+            android:label="@string/title_dev_2d_sprite_batcher_test" >
+        </activity>
+
+        <activity
+            android:name=".test2d.TextureAtlasTest"
+            android:label="@string/title_dev_2d_texture_atlas_test" >
+        </activity>
+
+        <activity
+            android:name=".test2d.Camera2DTest"
+            android:label="@string/title_dev_2d_camera2d_test" >
+        </activity>
+
+        <activity
+            android:name=".test2d.CollisionTest"
+            android:label="@string/title_dev_2d_collision_test" >
+        </activity>
+
+        <activity
+            android:name=".test2d.CannonTest"
+            android:label="@string/title_dev_2d_cannon_test" >
+        </activity>
+
+        <activity
+            android:name=".test2d.CannonGravityTest"
+            android:label="@string/title_dev_2d_cannon_gravity_test" >
+        </activity>
+
+        <activity
+            android:name=".GLBasicsStarter"
+            android:label="@string/title_gl_starter_basics" >
+        </activity>
+
+        <activity android:name=".testgl.GLSurfaceViewTest"
+            android:label="@string/title_gl_surface_view_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.GLGameTest"
+            android:label="@string/title_gl_game_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.FirstTriangleTest"
+            android:label="@string/title_first_triangle_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.ColoredTriangleTest"
+            android:label="@string/title_colored_triangle_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.TexturedTriangleTest"
+            android:label="@string/title_textured_triangle_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.IndexedTest"
+            android:label="@string/title_indexed_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.BlendingTest"
+            android:label="@string/title_blending_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testgl.BobTest"
+            android:label="@string/title_bob_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".StarterBasics"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.LifeCycleTest"
+            android:label="@string/title_life_cycle_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.SingleTouchTest"
+            android:label="@string/title_single_touch_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.MultiTouchTest"
+            android:label="@string/title_multi_touch_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.KeyTest"
+            android:label="@string/title_key_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.AccelerometerTest"
+            android:label="@string/title_accelerometer_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.AssetsTest"
+            android:label="@string/title_assets_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.ExternalStorageTest"
+            android:label="@string/title_external_storage_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.SoundPoolTest"
+            android:label="@string/title_sound_pool_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.MediaPlayerTest"
+            android:label="@string/title_media_player_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.FullScreenTest"
+            android:label="@string/title_full_screen_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.RenderViewTest"
+            android:label="@string/title_render_view_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.ShapeTest"
+            android:label="@string/title_shape_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.BitmapTest"
+            android:label="@string/title_bitmap_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.FontTest"
+            android:label="@string/title_font_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity android:name=".testbasic.SurfaceViewTest"
+            android:label="@string/title_surface_view_test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+    </application>
+
+</manifest>
